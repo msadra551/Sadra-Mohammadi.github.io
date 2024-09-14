@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/Satoshi-Regular.woff') format('woff'),
+        url('../font/Satoshi-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --text-color: #ededed;
+    --text-font: Satoshi, sans-serif;
+}
+.back{
+    background-image: url("../images/iStock-800334746_super.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    height: 100vh;
+   
+}
