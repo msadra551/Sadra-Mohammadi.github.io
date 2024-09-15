@@ -6,16 +6,21 @@
     font-style: normal;
     font-display: swap;
 }
+
 :root {
-    --text-color: #ededed;
-    --text-font: Satoshi, sans-serif;
+    --text-font: 'Satoshi', sans-serif;
 }
-.back{
+
+.back {
     background-image: url("../images/1.jpg");
-    background-size: cover;
-    background-position: center;
-    color: var(--text-color);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     font-family: var(--text-font);
     height: 100vh;
-   
 }
+span:hover{
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
