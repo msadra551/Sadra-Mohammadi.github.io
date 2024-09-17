@@ -7,15 +7,15 @@
     font-display: swap;
 }
 @media all and (max-width:575px) {
-    a{
-        font-size: 12px;
+    .caption-font {
+        font-size: calc(9px + 1vw) !important; 
+    }
+    .custom-spacing{
+        height: calc(18px + 3vw);
     }
 }
 :root {
     --text-font: 'Satoshi', sans-serif;
-}
-.custom-spacing{
-    height: 220px;
 }
 .back {
     background-image: url("../images/1.jpg");
@@ -24,6 +24,7 @@
     background-repeat: no-repeat; 
     font-family: var(--text-font);
     height: 100vh;
+    filter: opacity(100%);
 }
 span:hover{
     color: rgb(128, 128, 128);

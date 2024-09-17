@@ -1,107 +1,292 @@
 <!DOCTYPE html>
 <html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/44fd53fd78.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/inex.css">
-</head>
-<body>
-    <header class="container-fluid">
-        <div class="row align-items-center back">
-          <div class="col-12 text-center z-1">
-            <h3 class="pb-2 text-capitalize text-white">mohammad sadra mohammadi</h3>
-            <h3 class="pb-2 text-capitalize text-white">fresher developer</h3>
-            <h3 class="mb-0 text-capitalize text-white">
-            <span> python </span>|<span> ui/ux </span>|<span> front end </span>
-            </h3>
-            <div class="custom-spacing"></div>
-            <i class="fa-solid fa-laptop mt-5 mb-0 display-1 text-white"></i>
-          </div>
-          <div class="col-12 position-absolute start-0 top-0 w-100 h-100 bg-dark opacity-50"></div>
-        </div>
-      </header>
-      
-    <main class="container-fluid px-0">
-        <section class="row">
-            <h2 class="col-8 col-md-6 offset-2 offset-md-3 my-4 text-capitalize h3 text-center ">
-                i passed these courses
-            </h2>
-        </section>
-        <section class="row mb-md-5">
-            <div class="col-8 col-md-6 offset-2 offset-md-3">
-                <div class="row justify-content-center mx-auto">
-                    <div class="col-6 col-md-3 py-3 ps-md-0">
-                        <article class="d-flex flex-column">
-                            <img src="images/python.png" alt="python logo" class="w-100">
-                            <div class="text-capitalize pt-1">
-                                <h5>python basic</h5>
-                                <h6>tehran institute of technology</h6>
-                                <a href="https://drive.google.com/file/d/1mjtdpaounYsVL1yYB-2uhMDuWarSsyzi/view?usp=drive_link" target="_blank" class="text-uppercase text-decoration-none">certificate</a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-6 col-md-3 py-3 ps-md-0">
-                        <article class="d-flex flex-column">
-                            <img src="images/python.png" alt="python logo" class="w-100">
-                            <div class="text-capitalize pt-1">
-                                <h5>python advanced</h5>
-                                <h6>tehran institute of technology</h6>
-                                <a href="https://drive.google.com/file/d/1Wzor6l97A3XrjNtza5kEAyctJdN6NS0O/view" target="_blank" class="text-uppercase text-decoration-none">certificate</a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-6 col-md-3 py-3 ps-md-0">
-                        <article class="d-flex flex-column">
-                            <img src="images/uiux.png" alt="ui/ux logo" class="w-100">
-                            <div class="text-capitalize pt-1">
-                                <h5>ui/ux design</h5>
-                                <h6>cando engineering</h6>
-                                <a href="#" class="text-uppercase text-dark-emphasis text-decoration-none a-hover mt-5">taking course</a>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-6 col-md-3 py-3 ps-md-0">
-                        <article class="d-flex flex-column">
-                            <img src="images/FrontEnd.png" alt="front end logo" class="w-100">
-                            <div class="text-capitalize pt-1">
-                                <h5>web design</h5>
-                                <h6>tehran institute of technology</h6>
-                                <a href="#" class="text-uppercase text-dark-emphasis text-decoration-none a-hover">taking course</a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/44fd53fd78.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/inex.css" />
+  </head>
+  <body>
+    <header class="container-fluid px-0 mx-0">
+        <nav class="navbar navbar-expand-lg bg-body">
+            <div class="container">
+              <a class="navbar-brand" href="#">Sadra mohammadi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        home layouts
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        info pagees
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        pages
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        portfolio
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        blog
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        shop
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                        <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                        <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">home page(tamplate 1)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                          <li><a class="dropdown-item" href="#">home page(tamplate 2)</a></li>
+                          <li><hr class="dropdown-divider d-md-none d-block"></li>
+                      </ul>
+                    </li>
+                    
+                </ul>
+                  <button class="btn rounded-0 bg-success-subtle" type="submit">Search</button>
+              </div>
             </div>
+          </nav>
+        <div class="row align-items-center back mx-0">
+            <div class="col-12 text-center z-1 my-5 py-5">
+                <h3 class="pb-2 text-capitalize text-white">
+            mohammad sadra mohammadi
+                </h3>
+                <h3 class="pb-2 text-capitalize text-white">fresher developer</h3>
+                <h3 class="mb-0 text-capitalize text-white">
+            <span> python </span>|<span> ui/ux </span>|<span> front end </span>
+                </h3>
+                <div class="custom-spacing"></div>
+                <i class="fa-solid fa-laptop mt-5 mb-0 display-1 text-white"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid px-0 mx-0">
+      <section class="row mx-0">
+        <h2
+          class="col-8 col-md-6 offset-2 offset-md-3 my-4 text-capitalize h3 text-center"
+        >
+          i passed these courses
+        </h2>
+      </section>
+      <section class="row mb-md-5 mx-0">
+        <div class="col-8 col-md-6 offset-2 offset-md-3">
+          <div class="row justify-content-center mx-auto">
+            <div class="col-6 col-md-3 py-3 ps-md-0">
+              <article class="d-flex flex-column">
+                <img src="images/python.png" alt="python logo" class="w-100" />
+                <div class="text-capitalize  pt-1">
+                  <h5>python basic</h5>
+                  <h6 class="small">tehran institute of technology</h6>
+                  <a href="https://drive.google.com/file/d/1mjtdpaounYsVL1yYB-2uhMDuWarSsyzi/view?usp=drive_link" target="_blank" class="text-uppercase text-decoration-none caption-font">
+                    certificate
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 py-3 ps-md-0">
+              <article class="d-flex flex-column">
+                <img src="images/python.png" alt="python logo" class="w-100" />
+                <div class="text-capitalize pt-1">
+                  <h5>python advanced</h5>
+                  <h6 class="small">tehran institute of technology</h6>
+                  <a
+                    href="https://drive.google.com/file/d/1Wzor6l97A3XrjNtza5kEAyctJdN6NS0O/view"
+                    target="_blank"
+                    class="text-uppercase text-decoration-none caption-font"
+                    >certificate</a
+                  >
+                </div>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 py-3 ps-md-0">
+              <article class="d-flex flex-column">
+                <img src="images/uiux.png" alt="ui/ux logo" class="w-100" />
+                <div class="text-capitalize pt-1">
+                  <h5>ui/ux design</h5>
+                  <h6 class="small">cando engineering</h6>
+                  <a href="#"class="text-uppercase text-dark-emphasis text-decoration-none a-hover mt-5 caption-font">taking course</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 py-3 ps-md-0">
+              <article class="d-flex flex-column">
+                <img
+                  src="images/FrontEnd.png"
+                  alt="front end logo"
+                  class="w-100"
+                />
+                <div class="text-capitalize pt-1">
+                  <h5>web design</h5>
+                  <h6 class="small">tehran institute of technology</h6>
+                  <a href="#"class="text-uppercase text-dark-emphasis text-decoration-none a-hover caption-font">taking course</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row my-custom mx-0">
+        <section
+          class="col-8 offset-2 col-md-6 offset-md-3 d-flex flex-column flex-md-row"
+        >
+          <section class="d-flex flex-column">
+            <p class>About Me</p>
+            <p class="text-capitalize h4">
+              As a newcomer in the technology field, I am currently on a path to
+              enhance my skills in various areas of information technology with
+              enthusiasm and motivation for learning and growth. By completing
+              courses in Python and artificial intelligence, and also learning
+              web design and UI/UX, I am seeking an opportunity to showcase my
+              abilities in a challenging and dynamic work environment.
+            </p>
+            <div class="d-flex flex-row py-2">
+              <a href="https://github.com/Sadra-Mohammadi" target="_blank">
+                <i class="fa-brands fa-github text-dark display-5 p-2 ps-0"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/sadra_mohammadi12?igsh=MXI0M245Z3I1bTR5eA=="
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram text-dark display-5 p-2"></i
+              ></a>
+              <a href="http://t.me/msadra12" target="_blank">
+                <i class="fa-brands fa-telegram text-dark display-5 p-2"></i
+              ></a>
+            </div>
+          </section>
+          <section class="d-flex flex-column ms-md-5 pe-md-1">
+            <p>
+              I built this website with the purpose of both showcasing a project
+              as part of my portfolio and featuring my personal information on
+              the homepage as a resume. On other pages of this site, you will
+              find samples of my web design projects, which will help you assess
+              my level of proficiency in the field. This website is intended to
+              be updated with new content as I learn new skills and knowledge.
+            </p>
+            <p class="h4">
+              Moving forward, I will outline the skills I have learned and
+              utilized in each area, along with my self-assessed level of
+              proficiency in each subject. Additionally, the topics I am
+              currently learning or have set goals to learn are also available
+              on the site.
+            </p>
+          </section>
         </section>
-        <section class="row my-custom">
-            <section class="col-8 offset-2 col-md-6 offset-md-3 d-flex flex-column flex-md-row">
-                <section class="d-flex flex-column">
-                    <p class>About Me</p>
-                    <p class="text-capitalize h4">As a newcomer in the technology field, I am currently on a path to enhance my skills in various areas of information technology with enthusiasm and motivation for learning and growth. By completing courses in Python and artificial intelligence, and also learning web design and UI/UX, I am seeking an opportunity to showcase my abilities in a challenging and dynamic work environment.</p>
-                    <div class="d-flex flex-row py-2">
-                    <a href="https://github.com/Sadra-Mohammadi" target="_blank">
-                        <i class="fa-brands fa-github text-dark display-5 p-2 ps-0"></i></a>
-                    <a href="https://www.instagram.com/sadra_mohammadi12?igsh=MXI0M245Z3I1bTR5eA==" target="_blank">
-                        <i class="fa-brands fa-instagram text-dark display-5 p-2"></i></a>
-                    <a href="http://t.me/msadra12" target="_blank">
-                        <i class="fa-brands fa-telegram text-dark display-5 p-2"></i></a>
-                    </div>
-                </section>
-                <section class="d-flex flex-column ms-md-5 pe-md-1">
-                    <p>I built this website with the purpose of both showcasing a project as part of my portfolio and featuring my personal information on the homepage as a resume. On other pages of this site, you will find samples of my web design projects, which will help you assess my level of proficiency in the field. This website is intended to be updated with new content as I learn new skills and knowledge.</p>
-                    <p class="h4">Moving forward, I will outline the skills I have learned and utilized in each area, along with my self-assessed level of proficiency in each subject. Additionally, the topics I am currently learning or have set goals to learn are also available on the site.</p>
-                </section>
-            </section>
-       
+      </section>
+      <section class="bg-success-subtle">
+        <section>
+          <section>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero omnis consequatur quasi facere? Repellendus totam eveniet iste labore provident aperiam velit, omnis itaque, quia ullam inventore voluptates mollitia ad saepe culpa? At suscipit voluptatum expedita ipsa quam, eveniet a voluptatibus provident voluptates reprehenderit libero perspiciatis nostrum veniam excepturi illum voluptas!</p>
+          </section>
+          <section></section>
         </section>
-        <section class="bg-success-subtle">
-            <img src="images/1.jpg" alt="">
+        <section>
+          <img src="images/1.jpg" class="w-50">
         </section>
+        <section>
+          <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quam, expedita nemo molestiae esse natus quas officiis quibusdam deleniti voluptatum harum, cum aspernatur iure culpa ipsum id sequi eum alias, veniam qui dolorum quae dolore? Impedit nisi ab explicabo quo similique modi, minus voluptatem reiciendis dignissimos autem. Ducimus quisquam dolore illo enim aliquam cupiditate repudiandae in ea iusto! Expedita reprehenderit quae unde ullam vitae enim, praesentium possimus totam voluptas, at animi modi earum asperiores fuga nihil! Officia cum exercitationem voluptatem deleniti beatae aut corporis aperiam, culpa impedit sed omnis expedita nisi. Culpa, maiores. Praesentium necessitatibus maxime hic deserunt molestias a?</p>
+          </section>
+          <section></section>
+          <section></section>
+          <section></section>
+        </section>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
