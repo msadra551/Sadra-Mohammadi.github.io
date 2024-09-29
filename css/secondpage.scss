@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../font/Satoshi-Regular.woff') format('woff'),
+         url('../font/Satoshi-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+ @media all and (max-width: 575px) {
+    .caption-font {
+      font-size: calc(9px + 1vw) !important;
+    }
+    
+    .custom-spacing {
+      height: calc(18px + 3vw);
+    }
+}
+  :root {
+    --text-font: 'Satoshi', sans-serif;
+}
+.back {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: var(--text-font);
+    height: 100vh;
+    filter: opacity(100%);
+}  
+ span {
+    &:hover {
+      color: rgb(128, 128, 128);
+      cursor: pointer;
+    }}
+.a-hover {
+    cursor: auto;
+  }  
+.my-custom {
+    margin-top: 120px;
+    margin-bottom: 104px;
+  }
+  .my-color{
+    filter: invert(100%);
+  }
+.accordion-button::after {
+  filter: brightness(0) invert(1); 
+}
+.my-btn{
+width: 36px;
+height: 36px;
+bottom: 16px;
+right: 16px;
+i{
+  margin-top: 25%;
+}
+}
+.i-hover:hover{
+ cursor: pointer;
+}
+.py-custom{
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
