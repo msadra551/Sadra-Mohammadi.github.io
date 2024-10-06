@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Satoshi';
   src: url("../font/Satoshi-Regular.woff") format("woff"), url("../font/Satoshi-Regular.woff2") format("woff2");
@@ -69,4 +70,33 @@ span:hover {
 .py-custom {
   padding-top: 104px;
   padding-bottom: 104px;
+}
+
+a i {
+  transition: transform 0.3s linear;
+  /* انتقال نرم برای انیمیشن */
+}
+
+a:hover i {
+  transform: scale(1.3);
+  /* اندازه آیکون 1.3 برابر می‌شود */
+}
+
+@media (max-width: 576px) {
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit-button {
+    padding: 12px 24px;
+    /* افزایش پدینگ */
+    font-size: 16px;
+    /* افزایش اندازه فونت */
+  }
+}
+
+/* اگر نیاز به میانه‌چینی متن‌ها دارید */
+.text-center {
+  text-align: center;
 }
