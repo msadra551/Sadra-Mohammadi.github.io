@@ -1,6 +1,6 @@
 const MENUITEMS = document.querySelectorAll(".text-color");
 const GAMINGMENU = document.querySelector(".gaming");
-const IMAGES = document.querySelectorAll(".logo-item img");
+const IMAGES = document.querySelectorAll("img");
 let isHovering = false; 
 
 
